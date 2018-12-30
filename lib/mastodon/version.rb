@@ -33,7 +33,7 @@ module Mastodon
     end
 
     def repository
-      'tootsuite/mastodon'
+      'japaslu/TwiChain'
     end
 
     def source_base_url
