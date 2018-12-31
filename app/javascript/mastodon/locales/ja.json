@@ -313,7 +313,7 @@
   "status.read_more": "もっと見る",
   "status.reblog": "ブースト",
   "status.reblog_private": "ブースト",
-  "status.reblogged_by": "{name}さんがブースト",
+  "status.reblogged_by": "{date}に{name}さんがブースト",
   "status.reblogs.empty": "まだ誰もブーストしていません。ブーストされるとここに表示されます。",
   "status.redraft": "削除して下書きに戻す",
   "status.reply": "返信",
