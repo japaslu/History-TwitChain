@@ -75,7 +75,7 @@ class Notification extends ImmutablePureComponent {
     };
   }
 
-  renderFollow (notification, account, link) {
+  renderFollow (notification, account, link, date) {
     const { intl } = this.props;
 
     return (
@@ -87,7 +87,7 @@ class Notification extends ImmutablePureComponent {
             </div>
 
             <span title={notification.get('created_at')}>
-              <FormattedMessage id='notification.follow' defaultMessage='{name} followed you' values={{ name: link }} />
+              <FormattedMessage id='notification.follow' defaultMessage='{name} followed you' values={{ name: link, date: date }} />
             </span>
           </div>
 
@@ -110,7 +110,7 @@ class Notification extends ImmutablePureComponent {
     );
   }
 
-  renderFavourite (notification, link) {
+  renderFavourite (notification, link, date) {
     const { intl } = this.props;
 
     return (
@@ -122,7 +122,7 @@ class Notification extends ImmutablePureComponent {
             </div>
 
             <span title={notification.get('created_at')}>
-              <FormattedMessage id='notification.favourite' defaultMessage='{name} favourited your status' values={{ name: link }} />
+              <FormattedMessage id='notification.favourite' defaultMessage='{name} favourited your status' values={{ name: link, date: date }} />
             </span>
           </div>
 
@@ -132,7 +132,7 @@ class Notification extends ImmutablePureComponent {
     );
   }
 
-  renderReblog (notification, link) {
+  renderReblog (notification, link, date) {
     const { intl } = this.props;
 
     return (
@@ -144,7 +144,7 @@ class Notification extends ImmutablePureComponent {
             </div>
 
             <span title={notification.get('created_at')}>
-              <FormattedMessage id='notification.reblog' defaultMessage='{name} boosted your status' values={{ name: link }} />
+              <FormattedMessage id='notification.reblog' defaultMessage='{name} boosted your status' values={{ name: link, date: date }} />
             </span>
           </div>
 
@@ -159,16 +159,17 @@ class Notification extends ImmutablePureComponent {
     const account          = notification.get('account');
     const displayNameHtml  = { __html: account.get('display_name_html') };
     const link             = <bdi><Permalink className='notification__display-name' href={account.get('url')} title={account.get('acct')} to={`/accounts/${account.get('id')}`} dangerouslySetInnerHTML={displayNameHtml} /></bdi>;
+    const date             = <RelativeTimestamp timestamp={notification.get('created_at')} />
 
     switch(notification.get('type')) {
     case 'follow':
-      return this.renderFollow(notification, account, link);
+      return this.renderFollow(notification, account, link, date);
     case 'mention':
       return this.renderMention(notification);
     case 'favourite':
-      return this.renderFavourite(notification, link);
+      return this.renderFavourite(notification, link, date);
     case 'reblog':
-      return this.renderReblog(notification, link);
+      return this.renderReblog(notification, link, date);
     }
 
     return null;
