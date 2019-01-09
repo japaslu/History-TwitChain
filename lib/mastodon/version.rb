@@ -33,7 +33,7 @@ module Mastodon
     end
 
     def repository
-      'japaslu/TwiChain'
+      'japaslu/TwitChain'
     end
 
     def source_base_url
