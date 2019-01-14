@@ -14,7 +14,7 @@ ja:
 #管理者ページから編集
     contact_unavailable:
 #管理者ページから編集
-    documentation: ドキュメント
+    documentation: 文献情報活動
     extended_description_html:
 #管理者ページから編集
     features:
@@ -368,10 +368,10 @@ ja:
         desc_html: 全ページに適用されるCSSの編集
         title: カスタムCSS
       hero:
-        desc_html: フロントページに表示されます。サイズは600x100px以上推奨です。未設定の場合、TwitChainのサムネイルが使用されます
+        desc_html: フロントページに表示されます。サイズは600x100px以上推奨です。未設定の場合、標準のサムネイルが使用されます
         title: ヒーローイメージ
       mascot:
-        desc_html: 複数のページに表示されます。サイズは293x205px以上推奨です。未設定の場合、標準のマスコットが使用されます
+        desc_html: 複数のページに表示されます。サイズは293x205px以上推奨です。未設定の場合、標準のマスコットが使用されます。
         title: マスコットイメージ
       peers_api_enabled:
         desc_html: 連合内でTwitChainが遭遇したドメインの名前
@@ -384,7 +384,7 @@ ja:
         title: ディレクトリを有効にする
       registrations:
         closed_message:
-          desc_html: 新規登録を停止しているときにフロントページに表示されます。HTMLタグが使えます
+          desc_html: 新規登録を停止しているときにフロントページに表示されます。HTMLタグが使えます。
           title: 新規登録停止時のメッセージ
         deletion:
           desc_html: 誰でも自分のアカウントを削除できるようにします
@@ -405,17 +405,17 @@ ja:
         desc_html: フロントページへの表示に使用される紹介文です。TwitChainを特徴付けることやその他重要なことを記述してください。HTMLタグ、特に<code>&lt;a&gt;</code> と <code>&lt;em&gt;</code>が使えます。
         title: TwitChainの説明
       site_description_extended:
-        desc_html: TwitChainにおける行動規範やルール、ガイドライン、そのほかの記述をする際に最適な場所です。HTMLタグが使えます
+        desc_html: TwitChainにおける行動規範やルール、ガイドライン、そのほかの記述をする際に最適な場所です。HTMLタグが使えます。
         title: 利用規約
       site_short_description:
         desc_html: サイドバーと meta タグに表示されます。TwitChain とは何か、そしてこのサーバーの特別な何かを1段落で記述してください。空欄の場合、TwitChainの説明が使用されます。
         title: 短いTwitChainの説明
       site_terms:
-        desc_html: あなたは独自のプライバシーポリシーや利用規約、そのほかの法的根拠を書くことができます。HTMLタグが使えます
+        desc_html: あなたは独自のプライバシーポリシーや利用規約、そのほかの法的根拠を書くことができます。HTMLタグが使えます。
         title: プライバシーポリシー
       site_title: インスタンスの名前
       thumbnail:
-        desc_html: OpenGraphとAPIによるプレビューに使用されます。サイズは1200×630px推奨です
+        desc_html: OpenGraphとAPIによるプレビューに使用されます。サイズは1200×630px推奨です。
         title: TwitChainのサムネイル
       timeline_preview:
         desc_html: ランディングページに公開タイムラインを表示します
