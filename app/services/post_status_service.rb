@@ -49,6 +49,8 @@ class PostStatusService < BaseService
     @visibility   = :unlisted if @visibility == :public && @account.silenced
     @scheduled_at = @options[:scheduled_at]&.to_datetime
     @scheduled_at = nil if scheduled_in_the_past?
+  rescue ArgumentError
+    raise ActiveRecord::RecordInvalid
   end
 
   def process_status!
@@ -64,7 +66,10 @@ class PostStatusService < BaseService
   end
 
   def schedule_status!
-    if @account.statuses.build(status_attributes).valid?
+    status_for_validation = @account.statuses.build(status_attributes)
+    if status_for_validation.valid?
+      status_for_validation.destroy
+
       # The following transaction block is needed to wrap the UPDATEs to
       # the media attachments when the scheduled status is created
 
