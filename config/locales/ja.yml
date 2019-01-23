@@ -20,15 +20,9 @@ ja:
     features:
       humane_approach_body: 他の SNS の失敗から学び、TwitChain はソーシャルメディアが誤った使い方をされることの無いように倫理的な設計を目指しています。
       humane_approach_title: より思いやりのある設計
-<<<<<<< HEAD
       not_a_product_body: デベロッパーフレンドリーな API により実現された、iOS や Android、その他様々なプラットフォームのためのアプリでどこでも友人とやりとりできます。
       not_a_product_title: いつでも身近に
       real_conversation_body: 好きなように書ける650文字までの投稿や、文章やメディアの内容に警告をつけられる機能で、思い通りに自分自身を表現することができます。
-=======
-      not_a_product_body: Mastodon は営利的な SNS ではありません。広告や、データの収集・解析によるターゲティングは無く、またユーザーの囲い込みもありません。ここには中央権力はありません。
-      not_a_product_title: あなたは人間であり、商品ではありません
-      real_conversation_body: 好きなように書ける500文字までの投稿や、文章やメディアの内容に警告をつけられる機能で、思い通りに自分自身を表現することができます。
->>>>>>> upstream/master
       real_conversation_title: 本当のコミュニケーションのために
       within_reach_body: TwitChainには他のSNSにはない独自の機能をたくさん導入する予定です。楽しみにお待ちください。カミングスン！！
       within_reach_title: 豊富な独自機能
