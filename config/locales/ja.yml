@@ -389,7 +389,7 @@ ja:
         desc_html: 全ページに適用されるCSSの編集
         title: カスタムCSS
       hero:
-        desc_html: フロントページに表示されます。サイズは600x100px以上推奨です。未設定の場合、標準のサムネイルが使用されます
+        desc_html: フロントページに表示されます。サイズは600x100px以上推奨です。未設定の場合、標準のサムネイルが使用されます。
         title: ヒーローイメージ
       mascot:
         desc_html: 複数のページに表示されます。サイズは293x205px以上推奨です。未設定の場合、標準のマスコットが使用されます。
@@ -423,21 +423,21 @@ ja:
         desc_html: ユーザーページにスタッフのバッジを表示します
         title: スタッフバッジを表示する
       site_description:
-        desc_html: フロントページへの表示に使用される紹介文です。TwitChainを特徴付けることやその他重要なことを記述してください。HTMLタグ、特に<code>&lt;a&gt;</code> と <code>&lt;em&gt;</code>が使えます。
-        title: TwitChainの説明
+        desc_html: フロントページへの表示に使用される紹介文です。当サイトを特徴付けることやその他重要なことを記述してください。HTMLタグ、特に<code>&lt;a&gt;</code> と <code>&lt;em&gt;</code>が使えます。
+        title: サイトの説明
       site_description_extended:
         desc_html: TwitChainにおける行動規範やルール、ガイドライン、そのほかの記述をする際に最適な場所です。HTMLタグが使えます。
         title: 利用規約
       site_short_description:
-        desc_html: サイドバーと meta タグに表示されます。TwitChain とは何か、そしてこのサーバーの特別な何かを1段落で記述してください。空欄の場合、TwitChainの説明が使用されます。
-        title: 短いTwitChainの説明
-      site_terms:
+        desc_html: サイドバーと meta タグに表示されます。TwitChain とは何か、そしてこのサーバーの特別な何かを1段落で記述してください。空欄の場合、標準の説明が使用されます。
+        title: 短いサイトの説明
+      site_terms: 
         desc_html: あなたは独自のプライバシーポリシーや利用規約、そのほかの法的根拠を書くことができます。HTMLタグが使えます。
         title: プライバシーポリシー
-      site_title: インスタンスの名前
+      site_title: サイトの名前
       thumbnail:
         desc_html: OpenGraphとAPIによるプレビューに使用されます。サイズは1200×630px推奨です。
-        title: TwitChainのサムネイル
+        title: サイトのサムネイル
       timeline_preview:
         desc_html: ランディングページに公開タイムラインを表示します
         title: タイムラインプレビュー
@@ -555,12 +555,12 @@ ja:
     warning_html: 削除が保証されるのはTwitChain上のコンテンツのみです。他のインスタンス等、外部に広く共有されたコンテンツについては痕跡が残ることがあります。また、現在接続できないサーバーや、あなたの更新を受け取らなくなったサーバーに対しては、削除は反映されません。
     warning_title: 共有されたコンテンツについて
   directories:
-    directory: ディレクトリ
-    enabled: あなたはディレクトリに掲載されています。
-    enabled_but_waiting: あなたはディレクトリへの掲載を選択しましたが、掲載に必要な最小フォロワー数 (%{min_followers} 人) を満たしていません。
+    directory: プロフィールディレクトリ
+    enabled: あなたはプロフィールディレクトリに掲載されています。
+    enabled_but_waiting: あなたはプロフィールディレクトリへの掲載を選択しましたが、掲載に必要な最小フォロワー数 (%{min_followers} 人) を満たしていません。
     explanation: 関心を軸にユーザーを発見しよう
     explore_mastodon: "%{title}を探索"
-    how_to_enable: あなたはディレクトリへの掲載を選択していません。下記から選択できます。ハッシュタグカラムに掲載するにはプロフィール文にハッシュタグを使用してください。
+    how_to_enable: あなたはプロフィールディレクトリへの掲載を選択していません。下記から選択できます。ハッシュタグカラムに掲載するにはプロフィール文にハッシュタグを使用してください。
     people:
       one: "%{count} 人"
       other: "%{count} 人"
@@ -851,7 +851,7 @@ ja:
     body_html:
 #管理者ページから編集
     title: "%{instance} 利用規約・プライバシーポリシー"
-  themes:
+  themes: 
     contrast: ハイコントラスト
     default: Mastodon
     mastodon-light: Mastodon (ライト)
