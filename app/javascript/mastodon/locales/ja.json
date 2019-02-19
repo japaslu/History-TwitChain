@@ -224,11 +224,7 @@
   "navigation_bar.favourites": "お気に入り",
   "navigation_bar.filters": "フィルター設定",
   "navigation_bar.follow_requests": "フォローリクエスト",
-<<<<<<< HEAD
   "navigation_bar.info": "利用規約",
-=======
-  "navigation_bar.info": "このサーバーについて",
->>>>>>> upstream/master
   "navigation_bar.keyboard_shortcuts": "ホットキー",
   "navigation_bar.lists": "リスト",
   "navigation_bar.logout": "ログアウト",
