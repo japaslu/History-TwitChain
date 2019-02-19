@@ -918,7 +918,7 @@ ja:
       review_preferences_action: 設定の変更
       review_preferences_step: 受け取りたいメールや投稿の公開範囲などの設定を必ず行ってください。不快でないならアニメーション GIF の自動再生を有効にすることもできます。
       subject: TwitChain へようこそ
-      tip_federated_timeline: 連合タイムラインは Mastodon ネットワークの流れを見られるものです。ただしTwitChain上の人がフォローしている人だけが含まれるので、それが全てではありません。
+      tip_federated_timeline: 連合タイムラインは ActivityPub ネットワークの流れを見られるものです。ただしTwitChain上の人がフォローしている人だけが含まれるので、それが全てではありません。
       tip_following: 標準では自動でTwitChainの管理者をフォローしています。もっと興味のある人たちを見つけるには、ローカルタイムラインと連合タイムラインを確認してください。
       tip_local_timeline: ローカルタイムラインは %{instance} にいる人々の流れを見られるものです。彼らはTwitChainを共有する仲間です！
       tip_mobile_webapp: もしモバイル端末のブラウザで TwitChain をホーム画面に追加できる場合、プッシュ通知を受け取ることができます。それはまるでネイティブアプリのように動作します！
