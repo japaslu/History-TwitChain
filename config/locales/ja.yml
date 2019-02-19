@@ -377,7 +377,7 @@ ja:
       updated_at: 更新日時
     settings:
       activity_api_enabled:
-        desc_html: 週ごとのローカルに投稿されたトゥート数、アクティブなユーザー数、新規登録者数
+        desc_html: 週ごとのローカルに投稿されたトゥート数、アクティブなユーザー数、新規登録者数に関する統計を後悔します。
         title: ユーザーアクティビティに関する統計を公開する
       bootstrap_timeline_accounts:
         desc_html: 複数のユーザー名はコンマで区切ります。ローカルの公開アカウントのみ有効です。指定しない場合は管理者がデフォルトで指定されます。
@@ -395,20 +395,20 @@ ja:
         desc_html: 複数のページに表示されます。サイズは293x205px以上推奨です。未設定の場合、標準のマスコットが使用されます。
         title: マスコットイメージ
       peers_api_enabled:
-        desc_html: 連合内でTwitChainが遭遇したドメインの名前
+        desc_html: 連合内でTwitChainが遭遇したドメインの名前を公開します。
         title: 接続しているサーバーのリストを公開する
       preview_sensitive_media:
-        desc_html: 他のウェブサイトにリンクを貼った際、メディアが閲覧注意としてマークされていてもサムネイルが表示されます
+        desc_html: 他のウェブサイトにリンクを貼った際、メディアが閲覧注意としてマークされていてもサムネイルが表示されます。
         title: OpenGraphによるプレビューで閲覧注意のメディアも表示する
       profile_directory:
-        desc_html: ユーザーが見つかりやすくできるようになります
+        desc_html: ユーザーが見つかりやすくできるようになります。
         title: ディレクトリを有効にする
       registrations:
         closed_message:
           desc_html: 新規登録を停止しているときにフロントページに表示されます。HTMLタグが使えます。
           title: 新規登録停止時のメッセージ
         deletion:
-          desc_html: 誰でも自分のアカウントを削除できるようにします
+          desc_html: 誰でも自分のアカウントを削除できるようにします。
           title: アカウント削除を受け付ける
         min_invite_role:
           disabled: 誰も許可しない
@@ -420,7 +420,7 @@ ja:
         desc_html: チェックを入れるとプレビュー欄に既知の連合先全てのトゥートを表示します。外すとローカルのトゥートだけ表示します。
         title: タイムラインプレビューに連合タイムラインを表示する
       show_staff_badge:
-        desc_html: ユーザーページにスタッフのバッジを表示します
+        desc_html: ユーザーページにスタッフのバッジを表示します。
         title: スタッフバッジを表示する
       site_description:
         desc_html: フロントページへの表示に使用される紹介文です。当サイトを特徴付けることやその他重要なことを記述してください。HTMLタグ、特に<code>&lt;a&gt;</code> と <code>&lt;em&gt;</code>が使えます。
@@ -439,7 +439,7 @@ ja:
         desc_html: OpenGraphとAPIによるプレビューに使用されます。サイズは1200×630px推奨です。
         title: サイトのサムネイル
       timeline_preview:
-        desc_html: ランディングページに公開タイムラインを表示します
+        desc_html: ランディングページに公開タイムラインを表示します。
         title: タイムラインプレビュー
       title: サイト設定
     statuses:
